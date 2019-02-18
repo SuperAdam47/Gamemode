@@ -18,7 +18,7 @@ class Main extends PluginBase implements Listener{
 
 
         case 'gm0':
-            $player->addTitle("§6Mode de Jeu", "§fVous êtes en Survie.");
+            $player->addTitle("§6Gamemode", "§fSurvial.");
             $player->setGamemode(0);
             $player->setHealth(20);
             $player->setFood(20);
@@ -27,14 +27,14 @@ class Main extends PluginBase implements Listener{
 
 
         case 'gm1':
-            $player->addTitle("§6Mode de Jeu", "§fVous êtes en Créatif");
+            $player->addTitle("§6Gamemode", "§fSurvival");
             $player->setGamemode(1);
             return true;
         break; // gamemode 1
 
 
         case 'gm2':
-            $player->addTitle("§6Mode de Jeu", "§fVous êtes en Aventure");
+            $player->addTitle("§6Gamemode", "§fAdventure");
             $player->setGamemode(2);
             $player->setHealth(1);
             $player->setFood(1);
@@ -43,7 +43,7 @@ class Main extends PluginBase implements Listener{
 
 
         case 'gm3':
-            $player->addTitle("§6Mode de Jeu", "§fVous êtes en Spectateur");
+            $player->addTitle("§6Gamemode", "§fSpectator");
             $player->setGamemode(3);
             return true;
         break; // gamemode 3
