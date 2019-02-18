@@ -8,30 +8,30 @@ commands:
   gm1:
     description: "§f[§3Gamemode§f]§r > Creative"
     usage: "/gm1"
-    permission: "hesuvia.gm1"
+    permission: "steellgold.gm1"
 
 
   gm2:
     description: "§f[§3Gamemode§f]§r > Adventure"
     usage: "/gm2"
-    permission: "hesuvia.gm2"
+    permission: "steellgold.gm2"
 
   gm3:
     description: "§f[§3Gamemode§f]§r > Spectator"
     usage: "/gm3"
-    permission: "hesuvia.gm3"
+    permission: "steellgold.gm3"
 
   gm0:
     description: "§f[§3Gamemode§f]§r > Survival"
     usage: "/gm0"
-    permission: "hesuvia.gm0"
+    permission: "steellgold.gm0"
 
 permissions:
- hesuvia.gm1:
+ steellgold.gm1:
   default: op
- hesuvia.gm2:
+ steellgold.gm2:
   default: op
- hesuvia.gm3:
+ steellgold.gm3:
   default: op
- hesuvia.gm0:
+ steellgold.gm0:
   default: op
