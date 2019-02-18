@@ -1,0 +1,37 @@
+name: Gamemode
+main: Steellgold\Gamemode\Main
+version: 1.0-Dev
+api: 3.0.0
+author: Steellgold
+
+commands:
+  gm1:
+    description: "§f[§3Gamemode§f]§r > Creative"
+    usage: "/gm1"
+    permission: "hesuvia.gm1"
+
+
+  gm2:
+    description: "§f[§3Gamemode§f]§r > Adventure"
+    usage: "/gm2"
+    permission: "hesuvia.gm2"
+
+  gm3:
+    description: "§f[§3Gamemode§f]§r > Spectator"
+    usage: "/gm3"
+    permission: "hesuvia.gm3"
+
+  gm0:
+    description: "§f[§3Gamemode§f]§r > Survival"
+    usage: "/gm0"
+    permission: "hesuvia.gm0"
+
+permissions:
+ hesuvia.gm1:
+  default: op
+ hesuvia.gm2:
+  default: op
+ hesuvia.gm3:
+  default: op
+ hesuvia.gm0:
+  default: op
