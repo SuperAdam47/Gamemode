@@ -1,5 +1,5 @@
 name: Gamemode
-main: Steellgold\Gamemode\Main
+main: Gamemode\Steellgold\Main
 version: 1.0-Dev
 api: 3.0.0
 author: Steellgold
