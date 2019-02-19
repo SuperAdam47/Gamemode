@@ -27,7 +27,7 @@ class Main extends PluginBase implements Listener{
 
 
         case 'gm1':
-            $player->addTitle("§6Gamemode", "§fSurvival");
+            $player->addTitle("§6Gamemode", "§fCreative");
             $player->setGamemode(1);
             return true;
         break; // gamemode 1
@@ -56,7 +56,7 @@ class Main extends PluginBase implements Listener{
 
 
     public function onDisable(){
-        $this->getLogger()->info("§cDéconnexion de Hesuvia");
+        $this->getLogger()->info("§cEklenti kapatıldı :)");
     }
 
 
